@@ -1,0 +1,10 @@
+{
+  "name": "data-analyzer",
+  "version": "1.0.0",
+  "author": "AetherFlow",
+  "description": "智能数据分析——自动识别数据结构、选择分析方法、生成可视化报告",
+  "category": "data",
+  "tags": ["data-analysis", "eda", "visualization", "statistics"],
+  "dependencies": [],
+  "compatible_agents": ["claude-code", "codex"]
+}
