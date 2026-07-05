@@ -1,0 +1,10 @@
+{
+  "tests/test_cost.py::test_select_model_basic": true,
+  "tests/test_cost.py::test_select_model_premium": true,
+  "tests/test_quality.py::test_analyze_homogenized_text": true,
+  "tests/test_quality.py::test_analyze_english": true,
+  "tests/test_quality.py::test_empty_text": true,
+  "tests/test_registry.py::test_register_agent": true,
+  "tests/test_registry.py::test_find_best_agent": true,
+  "tests/test_registry.py::test_disable_agent": true
+}
