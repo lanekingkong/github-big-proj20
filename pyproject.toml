@@ -1,0 +1,42 @@
+[project]
+name = "aetherflow"
+version = "0.1.0"
+description = "全能AI智能体编排与创作品质引擎 — 统一多Agent管理、智能成本路由、反同质化内容增强、跨平台分发"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "lanekingkong", email = "lanekingkong@github.com"}
+]
+keywords = ["ai-agent", "orchestrator", "content-quality", "cost-optimization", "multi-platform"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/lanekingkong/aetherflow"
+Repository = "https://github.com/lanekingkong/aetherflow"
+Issues = "https://github.com/lanekingkong/aetherflow/issues"
+
+[project.scripts]
+aetherflow = "aetherflow.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
