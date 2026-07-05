@@ -1,0 +1,10 @@
+{
+  "name": "rag-assistant",
+  "version": "1.0.0",
+  "author": "AetherFlow",
+  "description": "RAG知识库助手——为自定义知识库提供检索增强生成能力",
+  "category": "ai",
+  "tags": ["rag", "knowledge-base", "retrieval", "embedding"],
+  "dependencies": [],
+  "compatible_agents": ["claude-code", "gemini"]
+}
