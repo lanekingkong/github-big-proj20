@@ -1,0 +1,10 @@
+{
+  "name": "blog-writer",
+  "version": "1.0.0",
+  "author": "AetherFlow",
+  "description": "高质量博客文章生成——SEO优化、原创性增强",
+  "category": "content",
+  "tags": ["blog", "writing", "seo", "content-creation"],
+  "dependencies": [],
+  "compatible_agents": ["claude-code", "codex", "gemini"]
+}
