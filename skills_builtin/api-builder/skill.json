@@ -1,0 +1,10 @@
+{
+  "name": "api-builder",
+  "version": "1.0.0",
+  "author": "AetherFlow",
+  "description": "API自动构建——从描述生成完整的REST API服务",
+  "category": "code",
+  "tags": ["api", "backend", "fastapi", "express", "openapi"],
+  "dependencies": [],
+  "compatible_agents": ["claude-code", "codex", "gemini"]
+}
