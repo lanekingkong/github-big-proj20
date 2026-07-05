@@ -1,0 +1,10 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "author": "AetherFlow",
+  "description": "自动化代码审查——检查代码质量、安全性、性能问题",
+  "category": "code",
+  "tags": ["code-review", "quality", "security", "performance"],
+  "dependencies": [],
+  "compatible_agents": ["claude-code", "codex", "gemini"]
+}
