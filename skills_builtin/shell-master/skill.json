@@ -1,0 +1,10 @@
+{
+  "name": "shell-master",
+  "version": "1.0.0",
+  "author": "AetherFlow",
+  "description": "安全Shell脚本自动化——跨平台系统管理",
+  "category": "system",
+  "tags": ["shell", "automation", "devops", "system"],
+  "dependencies": [],
+  "compatible_agents": ["claude-code"]
+}
