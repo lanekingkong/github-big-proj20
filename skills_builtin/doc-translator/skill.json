@@ -1,0 +1,10 @@
+{
+  "name": "doc-translator",
+  "version": "1.0.0",
+  "author": "AetherFlow",
+  "description": "多语言文档翻译——保持技术术语准确性和Markdown格式完整",
+  "category": "content",
+  "tags": ["translation", "documentation", "i18n"],
+  "dependencies": [],
+  "compatible_agents": ["claude-code", "codex"]
+}
